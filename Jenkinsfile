@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                echo "Clone the git repo with the source code, and build the application. (e.g. npm for webapps or Gradle for Android or Java apps) CHANGE CHANGE CHANGE"
+                echo "Clone the git repo with the source code, and build the application. (e.g. npm for webapps or Gradle for Android or Java apps)"
             }
         }
         stage("Unit and Integration Tests") {
@@ -33,7 +33,7 @@ pipeline {
         }
         stage("Deploy to Production") {
             steps {
-                echo "Deploying the application on a different server separate from the staging server. (e.g. AWS Lightsail)"
+                echo "Deploying the application on a different server separate from the staging server (e.g. AWS Lightsail)"
             }
         }
     }
