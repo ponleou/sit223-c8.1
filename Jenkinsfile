@@ -28,12 +28,12 @@ pipeline {
         }
         stage("Integration Tests on Staging") {
             steps {
-                echo "Integrated testing in the deployed environment to ensure deployment works, (e.g. Selenium)"
+                echo "Integrated testing in the deployed environment to ensure deployment works (e.g. Selenium)"
             }
         }
         stage("Deploy to Production") {
             steps {
-                echo "Deploying the application on a different server separate from the staging server, (e.g. AWS Lightsail)"
+                echo "Deploying the application on a different server separate from the staging server (e.g. AWS Lightsail)"
             }
         }
     }
