@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                echo "Clone the git repo with the source code, and build the application. (e.g. npm for webapps or Gradle for Android or Java apps)"
+                echo "Clone the git repo with the source code, and build the application. (e.g. npm for webapps or Gradle for Android or Java apps) CHANGE CHANGE CHANGE"
             }
         }
         stage("Unit and Integration Tests") {
