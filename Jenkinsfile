@@ -33,7 +33,7 @@ pipeline {
         }
         stage("Deploy to Production") {
             steps {
-                echo "Deploying the application on a different server separate from the staging server (e.g. AWS Lightsail)"
+                echo "Deploying the application on a different server separate from the staging server. (e.g. AWS Lightsail)"
             }
         }
     }
